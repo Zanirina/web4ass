@@ -1,0 +1,191 @@
+#changeBG{
+    position: fixed;
+    border: 0px;
+    background-color: transparent;
+}
+#morein{
+    text-align: center;
+}
+#mi{
+    border: 0px;
+    background-color: transparent;
+    text-decoration: underline;
+    align-self: center;
+}
+
+#contbtn{
+    display: block;
+    border: 0px;
+    background-color:#9cb2c0;
+    font-size: 50px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+
+    width: 100vw;
+    height: 100px;
+}
+
+#todo {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#doh{
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    color: #333;
+}
+#doin{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}  
+#new-task {
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}  
+#addt {
+    padding: 10px 15px;
+    background-color:#9cb2c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#addt:hover {
+    background-color: #798a94;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}  
+li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+li button {
+    background-color: #e16672;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+li button:hover {
+    background-color: #7c1a23;
+}
+@media (max-width: 480px) {
+    #new-task {
+        width: 65%;
+    }
+    button {
+        padding: 10px;
+    }
+}
+
+
+#insor {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+#titsor {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}  
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 10px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+#btnsor {
+    background-color:#9cb2c0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#btnsor:hover {
+    background-color: #798a94;
+}  
+#resultsor {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.tax-calculator {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#btntax {
+    width: 100%;
+    padding: 10px;
+    background-color:#9cb2c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btntax:hover {
+    background-color: #798a94;
+}
+
+.result {
+    margin-top: 10px;
+    font-size: 18px;
+}
